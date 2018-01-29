@@ -98,4 +98,4 @@ your way around such documentation. That's why you can generate these JavaDocs u
 mvn javadoc:javadoc
 ```
 from the project root folder (assuming mvn(.exe) is on your PATH). The docs will be generated in the folder "apidocs" 
-in the project root, you can view them by opening apidocs/index.html in any browser.
+in the project root, you can view them by opening apidocs/index.html in any browser. You may get some errors in Windows, but the docs will still be generated and displayed correctly, so feel free to ignore them.
