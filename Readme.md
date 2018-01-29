@@ -12,7 +12,7 @@ It really helps to play a few games of Solitaire / Patience so that you are real
 the game is
 easy to understand, you will find that programming the game logic can be quite challenging if you don't have a really 
 thorough understanding of the rules. There are a lot of Solitaire / Patience games that you can use to 
-get up to speed, both online and offline, for example http://www.patiencespel.nl/patiencespelen/patience.php.
+get up to speed, both online and offline, for example http://www.patiencespel.nl/patiencespelen/patience.php (pick the version where you turn a single stock card, not three stock cards).
 
 ##### The assignment
 This week will introduce a lot of new concepts to you. You will develop as a team, perhaps for the first time. 
