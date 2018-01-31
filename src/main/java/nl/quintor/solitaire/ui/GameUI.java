@@ -5,7 +5,9 @@
  */
 package nl.quintor.solitaire.ui;
 
+import com.sun.xml.internal.ws.api.message.saaj.SAAJFactory;
 import java.util.Collection;
+import java.util.Scanner;
 import nl.quintor.solitaire.game.moves.Move;
 import nl.quintor.solitaire.models.state.GameState;
 
@@ -45,6 +47,7 @@ public class GameUI implements UI {
     @Override
     public void refresh(GameState gameState) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     /**
@@ -57,6 +60,12 @@ public class GameUI implements UI {
      */
     @Override
     public String refreshAndRequestMove(GameState gameState, Collection<Move> moves) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("What do you want to do?");
+        Scanner input = new Scanner(System.in);
+        
+        String request = input.nextLine(); 
+        
+        return request;
     }
 }

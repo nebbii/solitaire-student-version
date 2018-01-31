@@ -9,6 +9,7 @@ import nl.quintor.solitaire.ui.UI;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import nl.quintor.solitaire.models.deck.Deck;
 import nl.quintor.solitaire.ui.GameUI;
 
 
@@ -43,6 +44,8 @@ public class Main {
         List<Move> moves = Arrays.asList(new Quit());
         
         HashMap<String, Move> possibleMoves = new HashMap<>();
+        
+        Deck StockDeck = Deck.createDefaultDeck();
         
         for (int i = 0; i<keys.size(); i++) possibleMoves.put(keys.get(i), moves.get(i));
 
